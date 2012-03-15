@@ -1,0 +1,90 @@
+{
+  "praenomens":[
+    "Appius", "Aulus", "Caius", "Gnaeus", "Decimus", "Kaeso", "Lucius",
+    "Marcus", "Manius", "Mamercus", "Numerius", "Publius", "Quintus", 
+    "Servius", "Sextus", "Spurius", "Titus", "Tiberius", "Vibius"
+  ],
+  "nomens": {
+    "male":[
+      "Acci", "Acili", "Aeli", "Aemili", "Afrani", "Anni", "Annae", "Antoni", 
+      "Appulei", "Apusti", "Aquilli", "Atili", "Atti", "Aufidi", "Aureli", 
+      "Caecili", "Caedici", "Calpurni", "Carvili", "Cassi", "Claudi", "Clodi", 
+      "Coccei", "Coeli", "Corneli", "Cornifici", "Coruncani", "Cremuti", 
+      "Curi", "Deci", "Didi", "Domiti", "Duili", "Enni", "Fabi", "Fabrici", 
+      "Fanni", "Flamini", "Flavi", "Fufi", "Fulvi", "Fundani", "Furi", 
+      "Gelli", "Genuci", "Gracch", "Helividi", "Hermini", "Hirti", "Horati", 
+      "Hortensi", "Hostili", "Iuli", "Iuni", "Iuventi", "Labien", "Laeli", 
+      "Larci", "Licini", "Livi", "Lucreti", "Lutati", "Macci", "Mamili", 
+      "Manli", "Marci", "Mari", "Minuci", "Muci", "Mummi", "Munati", "Nauti", 
+      "Norban", "Octavi", "Opeli", "Opimi", "Otacili", "Ovidi", "Papiri", 
+      "Petilli", "Petroni", "Plini", "Pompei", "Pompili", "Popilli", 
+      "Pomponi", "Porci", "Postumi", "Pupi", "Quincti", "Rupili", "Rutili", 
+      "Salvi", "Scriboni", "Semproni", "Sergi", "Servili", "Sosi", "Sulpici", 
+      "Tarquini", "Terenti", "Tituri", "Tulli", "Ulpi", "Valeri", "Vatini", 
+      "Vibi", "Vipsani", "Virgili", "Volcaci", "Volumni", "Volusi"
+    ],
+    "female":[
+      "Acci", "Acili", "Aeli", "Aemili", "Afrani", "Anni", "Annae", 
+      "Antoni", "Appulei", "Apusti", "Aquilli", "Atili", "Atti", "Aufidi", 
+      "Aureli", "Caecili", "Caedici", "Calpurni", "Carvili", "Cassi", 
+      "Claudi", "Clodi", "Coccei", "Coeli", "Corneli", "Cornifici", 
+      "Coruncani", "Cremuti", "Curi", "Deci", "Didi", "Domiti", "Duili", 
+      "Enni", "Fabi", "Fabrici", "Fanni", "Flamini", "Flavi", "Fufi", 
+      "Fulvi", "Fundani", "Furi", "Gelli", "Genuci", "Gracch", "Helividi", 
+      "Hermini", "Hirti", "Horati", "Hortensi", "Hostili", "Iuli", "Iuni", 
+      "Iuventi", "Labien", "Laeli", "Larci", "Licini", "Livi", "Lucreti", 
+      "Lutati", "Macci", "Mamili", "Manli", "Marci", "Mari", "Minuci", 
+      "Muci", "Mummi", "Munati", "Nauti", "Norban", "Octavi", "Opeli", 
+      "Opimi", "Otacili", "Ovidi", "Papiri", "Petilli", "Petroni", "Plini", 
+      "Pompei", "Pompili", "Popilli", "Pomponi", "Porci", "Postumi", "Pupi", 
+      "Quincti", "Rupili", "Rutili", "Salvi", "Scriboni", "Semproni", 
+      "Sergi", "Servili", "Sosi", "Sulpici", "Tarquini", "Terenti", 
+      "Tituri", "Tulli", "Ulpi", "Valeri", "Vatini", "Vibi", "Vipsani", 
+      "Virgili", "Volcaci", "Volumni", "Volusi"
+    ]
+  },
+  "cognomens":{
+    "male":[
+      "Aemilianus", "Afer", "Africanus", "Agrippa", "Ahenobarbus", "Albinus", 
+      "Alexander", "Aquila", "Arbiter", "Asina", "Atilius", "Atticus", 
+      "Balbinus", "Barbula", "Bassianus", "Bassus", "Blaesus", "Blandus", 
+      "Britannicus", "Brutus", "Caecus", "Caepio", "Caesar", "Caesoninus", 
+      "Caligula", "Calvus", "Capito", "Carus", "Caracalla", "Carausius", 
+      "Carbo", "Catalina", "Cato", "Catullus", "Catulus", "Caudinus", "Celer", 
+      "Censorinus", "Centumalus", "Cethegus", "Cicero", "Cinna", "Classicus", 
+      "Clarus", "Clodianus", "Constantinus", "Corvus", "Cotta", "Crassus", 
+      "Crispinus", "Cunctator", "Curio", "Cursor", "Dentatus", "Diadematus", 
+      "Drusus", "Eburnus", "Etruscus", "Fabatus",  "Falco", "Ferox", 
+      "Flaccus", "Flaminius", "Firmus", "Fundulus", "Galba", "Gallus", 
+      "Geminus", "Germanicus", "Geta", "Glabrio", "Gracchus", "Hadrianus", 
+      "Hispallus", "Hypsaeus", "Iunior", "Iustus", "Labeo", "Laevinus", 
+      "Lentulus", "Lepidus", "Libo", "Licinius", "Ligus", "Livianus", 
+      "Longinus", "Longus", "Lucanus", "Lucullus", "Lupus", "Luscinus", 
+      "Macrinus", "Magnus", "Malleolus", "Mancinus", "Marcellus", "Martialis", 
+      "Maro", "Maximus", "Megellus", "Merula",  "Messalla", "Metellus", 
+      "Milo", "Murena", "Nasica", "Naso", "Nepos", "Nero", "Nerva", 
+      "Nobilior", "Octavianus", "Otho", "Pacilus", "Paetinus", "Paetus", 
+      "Pansa", "Paterculus", "Paulus", "Philippus", "Philo", "Pictor", "Piso", 
+      "Pius", "Plancus", "Plautus", "Pollio", "Porcina", "Priscus", "Pulcher", 
+      "Pullus", "Purpurio", "Quietus", "Ravilla", "Regulus", "Rufinus", 
+      "Rufus", "Rullianus", "Ruso", "Sabinus", "Salinator", "Saturninus", 
+      "Scaevola", "Scipio", "Secundus", "Seneca", "Severus", "Servilianus", 
+      "Silanus", "Sophus", "Sparsus", "Spurinus", "Strabo", "Sulla", "Sura", 
+      "Tacitus", "Tamphilus", "Tappulus", "Tertullus", "Tiro", "Torquatus", 
+      "Trajanus", "Tremulus", "Tranquillus", "Tullus", "Turrinus", "Ursus", 
+      "Varro", "Varus", "Valens", "Verus", "Vespasianus", "Victorinus", 
+      "Vulso"
+    ],
+    "female":[
+      "Agrippina", "Alfidia", "Alypia", "Attica", "Atia", "Aurelia", 
+      "Baebiana", "Clara", "Caesonia", "Crispina", "Cornificia", "Domitia", 
+      "Domitilla", "Domna", "Etruscilla", "Euphemia", "Eutropia", "Fadilla", 
+      "Faustina", "Fausta", "Fannia", "Flacilla", "Fundania", "Galeria", 
+      "Lepida", "Longina", "Lucilla", "Mamaea", "Matidia", "Metella", 
+      "Messalina", "Orbiana", "Paulina", "Paetina", "Placidia", "Plancina", 
+      "Popillia", "Poppaea", "Porcia", "Prisca", "Proba", "Primia", 
+      "Quintilla", "Roscia", "Sabina", "Secundia", "Severa", "Severina", 
+      "Supera", "Terentia", "Tertia", "Tertulla", "Titiana"
+    ]
+  }
+}
