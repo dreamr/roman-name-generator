@@ -1,3 +1,5 @@
+gem 'minitest'
+
 require 'minitest/spec'
 require 'minitest/autorun'
 require 'mocha'
@@ -8,7 +10,7 @@ SimpleCov.start
 $:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
 $:.unshift File.join(File.dirname(__FILE__), '..', 'test')
 
-require 'generator'
+require 'roman_name_generator'
 
 MiniTest::Spec.class_eval do
   def self.shared_examples
