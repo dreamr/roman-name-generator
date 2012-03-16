@@ -14,6 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "roman-name-generator"
   gem.require_paths = ["lib"]
   gem.version       = RomanNameGenerator::VERSION
+  gem.has_rdoc      = 'yard'
   
   gem.add_development_dependency('yard')
   gem.add_development_dependency('redcarpet')
