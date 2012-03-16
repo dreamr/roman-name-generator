@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-full_name = RomanNameGenerator.Generator.new("male").result
+    full_name = RomanNameGenerator.Generator.new("male").result
 
 ## Contributing
 
