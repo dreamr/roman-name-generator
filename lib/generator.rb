@@ -8,8 +8,8 @@ module RomanNameGenerator
     attr_accessor :name_data, :gender, :result, :type
 
     def initialize(gender)
-      self.gender   = gender
-      self.result   = random_name.strip
+      self.gender = gender
+      self.result = random_name.strip
     end
 
   private
