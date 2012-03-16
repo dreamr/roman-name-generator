@@ -44,4 +44,14 @@ describe RomanNameGenerator::Generator do
     end
   end
   
+  describe "#random_name" do
+    before do
+      @subject = RomanNameGenerator::Generator.new("male")
+    end
+    
+    it "must have 3 segments to the name" do
+      @subject.send(:random_name).split(" ").size.must_be :==, 3
+    end
+  end
+  
 end
