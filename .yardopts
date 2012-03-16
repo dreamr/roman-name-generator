@@ -1,1 +1,1 @@
---no-private --protected lib/**/*.rb - README.md LICENSE *.gemspec Rakefile Gemfile Gemfile.lock
+--no-private --protected lib/**/*.rb - README.md LICENSE *.gemspec Rakefile Gemfile

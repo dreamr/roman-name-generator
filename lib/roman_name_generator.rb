@@ -17,22 +17,26 @@ module RomanNameGenerator
   #   full_name = RomanNameGenerator::Generator.new("male").result
   class Generator
 
-    attr_accessor :name_data, :gender, :result, :type
+    attr_accessor :name_data, :gender, :result
 
     # Generates a random name and assigns it to #result
     # @param [String] gender the name's gender, `male` or `female`, defaults to `male`
     def initialize(gender="male")
       self.gender = gender
-      regenerate
+      generate
     end
     
     # Gives another random roman name based on the gender given in the
-    # constructor
+    # constructor, assigns it to #result, and then returns #result
     def regenerate
-      self.result = random_name.strip
+      generate
     end
 
   private
+  
+    def generate
+      self.result = random_name.strip
+    end
 
     def random_name
       load_name_data if self.name_data.nil?
