@@ -14,4 +14,8 @@ Gem::Specification.new do |gem|
   gem.name          = "roman-name-generator"
   gem.require_paths = ["lib"]
   gem.version       = RomanNameGenerator::VERSION
+  
+  gem.add_development_dependency('rake')
+  gem.add_development_dependency('minitest')
+  gem.add_development_dependency('mocha')
 end
