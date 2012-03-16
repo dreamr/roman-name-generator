@@ -3,28 +3,43 @@ require "version"
 
 $:.unshift(File.dirname(__FILE__)+'/lib')
 
+# The gems' namespace
 module RomanNameGenerator
+  # The Generator class handles the loading and randomizing the json
+  # data store containing the roman name stub json. By default you only
+  # need to call the initializer, and as soon as it is instantiated, 
+  # it builds a random roman name based on the gender given.
+  #
+  # To get a new name, either initialize a new generator, or call
+  # #regenerate
+  #
+  # Example:
+  #   full_name = RomanNameGenerator::Generator.new("male").result
   class Generator
-
-    def self.version
-      "0.1.0"
-    end
 
     attr_accessor :name_data, :gender, :result, :type
 
-    def initialize(gender)
+    # Generates a random name and assigns it to #result
+    # @param [String] gender the name's gender, `male` or `female`, defaults to `male`
+    def initialize(gender="male")
       self.gender = gender
+      regenerate
+    end
+    
+    # Gives another random roman name based on the gender given in the
+    # constructor
+    def regenerate
       self.result = random_name.strip
     end
 
   private
 
-    def random_name # :nodoc:
+    def random_name
       load_name_data if self.name_data.nil?
       [random_first_name, random_middle_name, random_last_name].join(" ")
     end
 
-    def random_first_name # :nodoc:
+    def random_first_name
       case self.gender
       when "male"
         data = self.name_data['praenomens']
@@ -35,7 +50,7 @@ module RomanNameGenerator
       end
     end
 
-    def random_middle_name # :nodoc:
+    def random_middle_name
       case self.gender
       when "male"
         data = self.name_data['nomens']['male']
@@ -45,7 +60,7 @@ module RomanNameGenerator
       end
     end
 
-    def random_last_name # :nodoc:
+    def random_last_name
       case self.gender
       when "male"
         data = self.name_data['cognomens']['male']
@@ -56,7 +71,7 @@ module RomanNameGenerator
       end
     end
 
-    def load_name_data # :nodoc:
+    def load_name_data
       self.name_data = JSON(
         File.open(
           File.expand_path("../data/names.json", __FILE__)
