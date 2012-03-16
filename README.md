@@ -1,6 +1,6 @@
 # RomanNameGenerator
 
-TODO: Write a gem description
+I have been working on a web-based gladiator game and needed to generate roman names. I ended up pulling this gem out of the app at the request of a few friends who apparently, wanted a roman name!
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+full_name = RomanNameGenerator.Generator.new("male").result
 
 ## Contributing
 
