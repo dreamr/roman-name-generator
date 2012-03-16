@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/version', __FILE__)
+require File.expand_path('../lib/roman_name_generator', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["James OKelly"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "roman-name-generator"
   gem.require_paths = ["lib"]
-  gem.version       = RomanNameGenerator::VERSION
+  gem.version       = RomanNameGenerator.version
   
   gem.add_development_dependency('rake')
   gem.add_development_dependency('minitest')

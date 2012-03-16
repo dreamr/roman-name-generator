@@ -3,7 +3,7 @@ require 'minitest_helper'
 shared_examples_for 'a male roman name' do  
   describe "Generator" do
     before do
-      @subject = RomanNameGenerator::Generator.new("male")
+      @subject = RomanNameGenerator.new("male")
     end
     
     describe "#load_name_data" do
