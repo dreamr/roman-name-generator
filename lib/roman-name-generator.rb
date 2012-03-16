@@ -1,5 +1,5 @@
 require 'json'
-require "roman-name-generator/version"
+require "version"
 
 $:.unshift(File.dirname(__FILE__)+'/lib')
 
